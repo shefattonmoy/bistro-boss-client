@@ -12,7 +12,7 @@ const AllUsers = () => {
     })
 
     const handleMakeAdmin = (singleUser) => {
-        fetch(`https://bistro-boss-restaurant-server-d121pvphg-shefathossain7-gmailcom.vercel.app/user/admin/${singleUser._id}`, {
+        fetch(`https://bistro-boss-restaurant-server-awysqwujv-shefathossain7-gmailcom.vercel.app/user/admin/${singleUser._id}`, {
             method: 'PATCH'
         })
         .then(res => res.json())

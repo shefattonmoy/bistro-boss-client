@@ -21,7 +21,7 @@ const Registration = () => {
                 updateUserProfile(data.name, data.photoURL)
                     .then(() => {
                         const savedUser = {name: data.name, email: data.email}
-                        fetch('https://bistro-boss-restaurant-server-d121pvphg-shefathossain7-gmailcom.vercel.app/user', {
+                        fetch('https://bistro-boss-restaurant-server-awysqwujv-shefathossain7-gmailcom.vercel.app/user', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json'

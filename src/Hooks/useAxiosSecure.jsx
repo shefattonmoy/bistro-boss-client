@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 const axiosSecure = axios.create({
-  baseURL: 'https://bistro-boss-restaurant-server-d121pvphg-shefathossain7-gmailcom.vercel.app', 
+  baseURL: 'https://bistro-boss-restaurant-server-awysqwujv-shefathossain7-gmailcom.vercel.app/', 
 });
 
 const useAxiosSecure = () => {
